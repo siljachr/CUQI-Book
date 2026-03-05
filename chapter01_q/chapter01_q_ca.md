@@ -20,4 +20,3 @@ Free diffusion dominates transport of small molecules in the cochlear aqueduct, 
 - Paper code GitHub repository: https://github.com/CUQI-DTU/Paper-Cochlear
 
 
-
