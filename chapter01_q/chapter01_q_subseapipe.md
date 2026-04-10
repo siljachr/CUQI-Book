@@ -21,7 +21,6 @@ We demonstrate our proposed methodology using both synthetic and real data from 
 </figcaption>
 </figure>
 
-\\
 
 <figure>
 <img src="figures/fig_subseapipes_2.png" alt="Setup" width="600"/>
