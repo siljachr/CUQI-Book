@@ -21,6 +21,8 @@ We demonstrate our proposed methodology using both synthetic and real data from 
 </figcaption>
 </figure>
 
+\\
+
 <figure>
 <img src="figures/fig_subseapipes_2.png" alt="Setup" width="600"/>
 <figcaption>Figure 2. Zoom on posterior mean and standard deviation of the defect reconstruction. Defect numbers are defined in figure 1(c). Defect 1 images have sizes 80×80 pixels and defect 2, 3, and 4 images have sizes 50×50 pixels.
