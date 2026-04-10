@@ -13,11 +13,11 @@ y = A(z + d),
 \end{equation}
 where $y$ is the noisy CT data, $A$ is the CT linear forward operator (here implemented using the third party ASTRA library {cite}`vanAarle2015`{cite}`vanAarle2016`) and $z$ and $d$ are the two unknown parameters representing images of the pipe’s large scale layered structure and the defects respectively. This is a challenging forward model to accommodate because it 1) depends on multiple parameters, and 2) depends on a different Python library. A link to the full implementation can be found in the resources section below. 
 
-We demonstrate our proposed methodology using both synthetic and real data from a 2-dimensional CT scan of a subsea pipe. Our results demonstrate how prior modelling can aid defect detection in X-ray CT inspection of subsea pipes. Our framework provides a separate image of defects in the subsea pipe readily available for further analysis. Furthermore, the Bayesian approach provides uncertainty estimates related to the reconstruction of the defect image, which might aid the analysis and risk evaluation associated with the detected defects.
+We demonstrate our proposed methodology using real data from a 2-dimensional CT scan of a subsea pipe. The figures below show that we can succesfully reconstruct the large scale layered pipe structure and the defects seperately including uncertainty estimates for each reconstruction. Our results demonstrate how prior modelling can aid defect detection in X-ray CT inspection of subsea pipes. Our framework provides a separate image of defects in the subsea pipe readily available for further analysis. Furthermore, the Bayesian approach provides uncertainty estimates related to the reconstruction of the defect image, which might aid the analysis and risk evaluation associated with the detected defects.
 
 <figure>
 <img src="figures/fig_subseapipes_1.png" alt="Setup" width="600"/>
-<figcaption>Figure 1. (a)–(e) Posterior mean and standard deviations using real data. (f) TV reconstruction of the same data. Images of sizes 500×500 pixels.
+<figcaption>Figure 1. (a)–(e) Posterior mean and standard deviations using real data. (f) TV reconstruction of the same data for comparison. Images of sizes 500×500 pixels.
 </figcaption>
 </figure>
 
